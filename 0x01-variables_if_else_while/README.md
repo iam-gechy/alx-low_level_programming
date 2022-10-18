@@ -1,1 +1,1 @@
-1-last_digit.c
+program that prints the alphabet in lowercase, and then in uppercase
