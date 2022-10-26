@@ -3,7 +3,6 @@
 /**
  * _puts - prints a string, followed by a new line, to stdout.
  * @str: input
- * Return: string
  */
 
 void _puts(char *str)
@@ -14,5 +13,6 @@ void _puts(char *str)
 	{
 		_putchar(str[i]);
 	}
+
 	_putchar('\n');
 }
