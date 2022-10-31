@@ -1,8 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
   * _memset - Entry point.
+  * Desc: Entry
   * @s: pointed memory area.
   * @n: byte
   * @b: constant byte.
@@ -13,7 +13,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for (i = 0; i < n; i++)
+	for (i = 0 ; i < n ; i++)
 	{
 		s[i] = b;
 	}
