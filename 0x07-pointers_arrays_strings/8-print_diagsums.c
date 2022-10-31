@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 
 /**
  * print_diagsums -  Entry point
@@ -32,11 +32,5 @@ void print_diagsums(int *a, int size)
 			}
 		}
 	}
-	printf("%d, %d\n", s1, s2);
-}
-		sum1 += a[(size + 1) * i];
-		sum2 += a[(size - 1) * (i + 1)];
-	}
-
 	printf("%d, %d\n", s1, s2);
 }
