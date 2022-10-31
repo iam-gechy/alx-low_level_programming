@@ -5,14 +5,15 @@
  * @s: pointed destination
  * @b: constant byte
  * @n: bytes
- * Return: Always 0 (Success)
+ * Return: A string
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int a;
 
-	for (i = 0; i < n; i++)
-		s[i] = b;
+	for (a = 0; a < n; a++)
+		s[a] = ib;
+
 	return (s);
 }
