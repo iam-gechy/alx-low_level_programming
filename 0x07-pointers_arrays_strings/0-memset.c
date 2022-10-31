@@ -1,24 +1,18 @@
 #include "main.h"
 
 /**
-  * _memset - Entry point.
-  * Desc: Entry
-  * @s: pointed memory area.
-  * @n: byte
-  * @b: constant byte.
-  * Return: Always 0 (Success)
-*/
+ * _memset - Entry point
+ * @s: pointed destination
+ * @b: constant byte
+ * @n: bytes
+ * Return: Always 0 (Success)
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	i = 0;
-
-	while (i < n)
-	{
+	for (i = 0; i < n; i++)
 		s[i] = b;
-		i++;
-	}
 	return (s);
 }
