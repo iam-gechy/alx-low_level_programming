@@ -13,16 +13,15 @@ int prime_check(int n, int r)
 	{
 		return (0);
 	}
-	else if (f >= (n / 2))
+	else if (r >= (n / 2))
 	{
 		return (1);
 	}
 	else
 	{
-		return (prime_check(n, f + 1));
+		return (prime_check(n, r + 1));
 	}
 }
-
 /**
  * is_prime_number - returns 1 if the input integer is a prime number,
  * otherwise return 0.
