@@ -1,24 +1,28 @@
-nclude <stdio.h>
+#include <stdio.h>
+
+
 
 /**
 
-  * main - prints the number of arguments passed to the program
+   * main - prints program name
 
-  * @argc: arguments' count
+    * @argc: no of args
 
-  * @argv: arguments' vector
+     * @argv: pointer to arguments
 
-  * Return: 0 (success)
+      *
 
-*/
+       * Return: 0 at exit
+
+        */
 
 
 
-int main(int argc, char __attribute__((unused)) *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 
 {
 
-		printf("%i\n", argc - 1);
+		printf("%d\n", argc - 1);
 
 
 
