@@ -22,35 +22,26 @@ int main(int argc, char *argv[])
 		while (amount >= 25)
 		{
 			amount -= 25;
-
 			coin++;
 		}
-
 		while (amount >= 10)
 		{
 			amount -= 10;
-
 			coin++;
 		}
-
 		while (amount >= 5)
 		{
 			amount -= 5;
-
 			coin++;
 		}
-
 		while (amount >= 2)
 		{
 			amount -= 2;
-
 			coin++;
 		}
-
 		while (amount >= 1)
 		{
 			amount -= 1;
-
 			coin++;
 		}
 		printf("%d\n", coin);
@@ -58,9 +49,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		printf("Error\n");
-
 		return (1);
 	}
-
 	return (0);
 }
