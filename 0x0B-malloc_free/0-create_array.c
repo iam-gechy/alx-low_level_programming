@@ -14,7 +14,9 @@ char *create_array(unsigned int size, char c);
 	unsigned int d;
 
 	if (size == 0)
+	{
 		return (NULL);
+	}
 
 	if (size != 0)
 	{
