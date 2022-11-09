@@ -21,8 +21,8 @@ char *create_array(unsigned int size, char c);
 		array = (char *)malloc(size * sizeof(char));
 		if (array != NULL)
 		{
-			for (i = 0; i < size; i++)
-				array[i] = c;
+			for (d = 0; d < size; d++)
+				array[d] = c;
 		}
 	}
 
